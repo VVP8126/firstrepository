@@ -14,4 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Print Hello message
-      run: echo Hello, world!
+      run: echo Test-job works!
+  deploy-job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print Hello message
+      run: echo Deploy-job works!
